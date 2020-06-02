@@ -2,20 +2,7 @@ const chalk = require('chalk')
 const notes = require('./notes.js')
 const yargs = require('yargs')
 
-
-//const log = console.log
-// log(chalk.gray('hello world'))
-// log(chalk.bgGreen.red('next line'))
-// log(chalk.green.bgGray.bold('mercury','venus','earth'))
-// log(chalk.greenBright.bold('this is green',chalk.bgBlue('this is blue + green ? ')))
-// log(chalk.green.inverse.bold('Success!'))
-
-//customize yargs version
 yargs.version('1.1.0')
-
-//add, remove, read , list 
-
-//create add command
 yargs.command({
     command: 'add',
     describe: 'Add a new note' ,
